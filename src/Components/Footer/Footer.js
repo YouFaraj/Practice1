@@ -1,26 +1,22 @@
 import React from 'react';
-import {Table} from 'reactstrap';
+import './Footer.css';
+
 
 export default function Footer() {
     return (
         <React.Fragment>
-            <footer className="bottom text-center"> 
-                <Table borderless>
-                    <thead>
-                        <tr>
-                        <th>Location</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                        <td>3812 Coconut Palm Dr.
+            <footer className="text-center"> 
+                <ul className="footer">
+                    <li>Location</li>
+                    <li>3812 Coconut Palm Dr.
                             Suite 100
                             Tampa, FL 33619
-                            Phone: 813-621-3250     
-                            Fax: 813-621-3331
-                    </td></tr>
-                    </tbody>
-                </Table>
+                    </li>
+                    <li>Phone</li>
+                    <li>813-621-3250</li>     
+                    <li>Fax</li> 
+                    <li>813-621-3331</li>
+                </ul>
             </footer>
         </React.Fragment>
     )

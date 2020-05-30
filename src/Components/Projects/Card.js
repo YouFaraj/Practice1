@@ -7,7 +7,7 @@ import {
 
 export default function Project(props){
   return (
-    <div className="border m-auto">
+    <div className="border pt-2">
       <Card className="text-center">
         <CardImg top width="100%" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.constructionspecifier.com%2Fwp-content%2Fuploads%2F2015%2F07%2Fbigstock-Big-Construction-Site-Cranes-a-52763107-2.jpg&f=1&nofb=1" alt="Card image cap" />
         <CardBody>

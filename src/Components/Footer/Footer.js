@@ -5,8 +5,8 @@ import './Footer.css';
 export default function Footer() {
     return (
         <React.Fragment>
-            <footer className="text-center"> 
-                <ul className="footer">
+            <footer className="m-auto"> 
+                <ul className="footer text-center">
                     <li>Location</li>
                     <li>3812 Coconut Palm Dr.
                             Suite 100

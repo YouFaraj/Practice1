@@ -5,7 +5,7 @@ export default function Slides(props){
   return (
     <div>
       <Jumbotron className="text-center">
-        <h1 className="display-3">SRD Engineering</h1>
+        <h1 className="display-3 mt-5">SRD Engineering</h1>
         <p className="lead">Engineering Done Right.</p>
         <hr className="my-2" />
         <p>Our mission is to Provide High Quality Engineering Services to our clients, on an aggressive schedule and within Budget.

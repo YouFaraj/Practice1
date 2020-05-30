@@ -4,7 +4,7 @@ import {Table} from 'reactstrap';
 export default function Footer() {
     return (
         <React.Fragment>
-            <footer className="fixed-bottom text-center"> 
+            <footer className="bottom text-center"> 
                 <Table borderless>
                     <thead>
                         <tr>

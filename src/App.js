@@ -1,10 +1,10 @@
 import React from 'react';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import { Home } from './Home';
-import {About} from './About';
-import {Contact} from './Contact';
+import { Home } from './Components/Home/Home';
+import {About} from './Components/About/About';
+import {Contact} from './Components/Contact/Contact';
 import {NoMatch} from './NoMatch';
-import {Projects} from './Projects';
+import {Projects} from './Components/Projects/Projects';
 
 function App() {
   return (

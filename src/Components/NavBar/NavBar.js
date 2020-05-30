@@ -16,7 +16,7 @@ export default function NavBar(){
     
     return (
             <React.Fragment>
-              <Navbar color="light" light expand="md" >
+              <Navbar color="light" light expand="md" className="sticky-top" >
                 <NavbarBrand href="/">SRD</NavbarBrand>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>

@@ -4,31 +4,21 @@ import {Table} from 'reactstrap';
 export default function Footer() {
     return (
         <React.Fragment>
-            <footer className="fixed-bottom"> 
+            <footer className="fixed-bottom text-center"> 
                 <Table borderless>
                     <thead>
                         <tr>
-                        <th>First Name</th>
-                        <th>Last Name</th>
-                        <th>Username</th>
+                        <th>Location</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
-                        </tr>
-                        <tr>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                        <td>@fat</td>
-                        </tr>
-                        <tr>
-                        <td>Larry</td>
-                        <td>the Bird</td>
-                        <td>@twitter</td>
-                        </tr>
+                        <td>3812 Coconut Palm Dr.
+                            Suite 100
+                            Tampa, FL 33619
+                            Phone: 813-621-3250     
+                            Fax: 813-621-3331
+                    </td></tr>
                     </tbody>
                 </Table>
             </footer>

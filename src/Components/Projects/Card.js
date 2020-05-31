@@ -1,22 +1,23 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './Card.css';
 import {
   Card, CardImg, CardText, CardBody,
-  CardTitle, CardSubtitle, Button
+  CardTitle, Button
 } from 'reactstrap';
 
-export default function Project(props){
+export default class Project extends Component{
+  render(){
   return (
-    <div className="border pt-2">
+    <div className="border">
       <Card className="text-center">
-        <CardImg top width="100%" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.constructionspecifier.com%2Fwp-content%2Fuploads%2F2015%2F07%2Fbigstock-Big-Construction-Site-Cranes-a-52763107-2.jpg&f=1&nofb=1" alt="Card image cap" />
+        <CardImg className="image" top width="100%" src={this.props.src} alt={this.props.alt} />
         <CardBody>
-          <CardTitle>Card title</CardTitle>
-          <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-          <Button>Button</Button>
+          <CardTitle>{this.props.title}</CardTitle>
+          <CardText>{this.props.text}</CardText>
+          <Button>Learn More</Button>
         </CardBody>
       </Card>
     </div>
   );
 };
+}

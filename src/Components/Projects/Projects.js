@@ -8,7 +8,7 @@ export const Projects = () => {
     return (
         <div>
             <NavBar />
-            <h1 className="text-center p-3 m-auto">Projects</h1>
+            <h1 className="text-center p-3 m-auto">Recent Projects</h1>
             <Cards />
             <Footer />
         </div>

@@ -1,0 +1,12 @@
+.background{
+    background-image: url(https://wpamelia.com/wp-content/uploads/2019/02/black-background-dark-light-streaks-1679719.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35em;
+    margin: auto;
+    padding: 4rem;
+}
+
+.slideContainer{
+    color: rgb(255, 255, 255);
+};

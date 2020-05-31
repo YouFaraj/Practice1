@@ -7,6 +7,8 @@ export default function Cards() {
             <Project />
             <Project />
             <Project />
+            <Project />
+            <Project />
         </div>
     )
 }

@@ -7,10 +7,10 @@ import Services from '../Services/Services';
 export const Home = () => {
     return (
     <React.Fragment>
-     <NavBar />
-     <Slides />
-     <Services />
-     <Footer />
+        <NavBar />
+        <Slides />
+        <Services />
+        <Footer />
     </React.Fragment>
     )
 }

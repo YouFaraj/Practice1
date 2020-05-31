@@ -1,8 +1,11 @@
 .footer{
     list-style-type: none;
     margin-top: 3rem;
-    bottom: 0;
     padding-right: 3rem;
-    background-color: rgb(238, 234, 234);
+    background-color: black;
+    margin-bottom: 0rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    color: white;
 }
 
